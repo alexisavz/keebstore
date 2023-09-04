@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Strawberry Frog One",
+      "description": "MK and Ducky have teamed up to bring you another epic Limited Edition theme: Strawberry Frog! Every detail has been considered and diligently worked through in the design and production of this beautiful blend of art and technology. Beyond the amazing tech built into all One 3 Minis, we used XDA profile keycaps to soften the edges and match our hoppity friend. Perfecting the case and keycap prints took months of work and retooling, and the results speak for themselves. Don't miss out on this limited-edition masterpiece!",
+      "images": [
+        "straw-frog-1",
+        "straw-frog-2",
+        "straw-frog-3"
+      ],
+      "price": 139.99,
+      "brand": "Ducky One",
+      "display": true,
+      "stock": 13
+    },
+    {
+      "id": 2,
+      "name": "Keyboard Model 2",
+      "description": "A compact and wireless keyboard for on-the-go use.",
+      "images": [
+        "straw-frog-1",
+        "straw-frog-2",
+        "straw-frog-3"
+      ],
+      "price": 79.99,
+      "brand": "TechKey",
+      "display": true,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Keyboard Model 3",
+      "description": "A gaming keyboard with customizable macros and LED effects.",
+      "images": [
+        "straw-frog-1",
+        "straw-frog-2"
+      ],
+      "price": 129.99,
+      "brand": "GameMaster",
+      "display": false,
+      "stock": 10
+    }
+  ]
+  

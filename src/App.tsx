@@ -1,10 +1,11 @@
 import './App.css';
-import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Home';
 import Keebs from './pages/Keebs';
 import Comps from './pages/Comps';
 import KnowHow from './pages/KnowHow';
+import Header from './components/Header/Header';
+import Keeb from './pages/Keeb';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/keebs" element={<Keebs />} />
 				<Route path="/comps" element={<Comps />} />
 				<Route path="/know-how" element={<KnowHow />} />
+				<Route path="/keebs/:id" element={<Keeb />} />
 			</Routes>
 		</>
 	);

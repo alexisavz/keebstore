@@ -1,0 +1,65 @@
+.container {
+	margin-top: 4rem;
+}
+
+.carousel {
+	&.image {
+		width: 500px;
+		border-radius: 0.5rem;
+		@media screen and (max-width: 768px) {
+			width: 300px;
+		}
+	}
+
+	&.imageCont {
+		@media screen and (max-width: 768px) {
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	&.title {
+		text-align: center;
+	}
+
+	&.brand {
+		margin-bottom: 1.5rem;
+	}
+
+	&.left-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		@media screen and (max-width: 768px) {
+			align-items: center;
+		}
+	}
+
+	&.content {
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 2rem;
+
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+
+	&.button {
+		padding: 0.5rem;
+		border: 2px solid #d90429;
+		border-radius: 0.5rem;
+
+		text-decoration: none;
+		font-size: 1.25rem;
+		color: #2b2d42;
+		transition: 200ms;
+
+		&:hover {
+			background-color: #d90429;
+			color: #edf2f4;
+		}
+	}
+}
